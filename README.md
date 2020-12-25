@@ -2,11 +2,13 @@
 Soccer Mum Club
 
 Background information
+
 Given our rush society where most parents are busy, children do not spend much quality time with their parents. It is said that a child requires
 a mother's affection in their young age. Furthermore, the increase
 of technology in this era has caused many children to stay home watch television, play mobile games or watch anything online. 
 
 Purpose of web application
+
 Children need to go out and play. They need to learn to interact with people of their age as well. Hence this web application focuses on getting children to spend time with their moms while getting the necessary exercise as well.
 
 Features of the web application
