@@ -4,6 +4,7 @@
   
   body {
     background-image: url('images/aboutbg.jpg');
+    background-repeat: none;
     font-family: Helvetica, sans-serif;
   }
   
