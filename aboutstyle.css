@@ -3,8 +3,7 @@
   }
   
   body {
-    background-image: url('images/aboutbg.jpg');
-    background-repeat: none;
+    background-image: url(images/aboutbg.jpg);
     font-family: Helvetica, sans-serif;
   }
   
@@ -99,4 +98,10 @@
     color: white;
     position: relative;
     border-radius: 10px;
+  }
+
+  .title{
+      font-family: 'Sansita Swashed';
+      color: white;
+      text-align: center;
   }
