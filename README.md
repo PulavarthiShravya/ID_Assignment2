@@ -25,3 +25,5 @@ API used:
 
 Sources used:
 1. index page background image --> google images: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.latimes.com%2Fsports%2Fstory%2F2020-03-08%2Fsoccer-mom-youth-sports&psig=AOvVaw32dseA7xwKpwzj0wYN5cnN&ust=1608976377715000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKC176Lu6O0CFQAAAAAdAAAAABAD
+
+2. timeline for about page --> w3schools: https://www.w3schools.com/howto/howto_css_timeline.asp
