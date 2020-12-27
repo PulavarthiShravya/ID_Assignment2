@@ -4,7 +4,7 @@
   
   body {
     background-image: url(images/aboutbg.jpg);
-    font-family: Helvetica, sans-serif;
+    font-family: 'Roboto Condensed';
   }
   
   /* The actual timeline (the vertical ruler) */
@@ -104,4 +104,20 @@
       font-family: 'Sansita Swashed';
       color: white;
       text-align: center;
+      font-size: 40px;
+  }
+
+
+  .button-about {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    margin: 4px 28px;
+    cursor: pointer;
   }
