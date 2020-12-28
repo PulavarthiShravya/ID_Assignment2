@@ -71,14 +71,17 @@ body {
 .card .features ul li span {
     border-bottom: 2px dotted #f6b352;
 }
-.card .btn {
-    display: block;
-    background: #f6b352;
-    color: white;
-    padding: 15px 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.9);
-    transition: all 200ms ease-in-out;
+
+.button-activities {
+    background-color: #f6b352;
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
     text-decoration: none;
-}
+    display: inline-block;
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    margin: 4px 0px;
+    cursor: pointer;
+  }
