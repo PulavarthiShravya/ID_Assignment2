@@ -1,13 +1,14 @@
 /* title */
 .title{
     font-family: 'Sansita Swashed';
+    text-align: center;
 }
 
 *, *:before, *:after {
     box-sizing: border-box;
 }
 body {
-    background: #383a3f;
+    background-image: url(images/activitiesbg.jpg);
     font-family: 'Roboto Condensed';
 }
 .card {
@@ -22,7 +23,7 @@ body {
     color: white;
     float: left;
 }
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
     .card {
         margin: 10px 20px;
         width: calc(100% - 40px);
@@ -30,27 +31,28 @@ body {
     .card:first-child {
         margin-top: 20px;
    } 
-} */
+} 
 .card:nth-child(2) {
     margin: 20px 0px;
     width: 33.3333%;
     padding: 50px 20px;
 }
 
-/*
+
 @media (max-width: 768px) {
     .card:nth-child(2) {
         margin: 10px 20px;
         width: calc(100% - 40px);
    }
-} */
+} 
 .card .title {
     font-size: 25px;
+    text-align: center;
 }
 .card .icon {
     margin: 50px 0;
 }
-.card .icon svg {
+.card .icon svg{
     width: 100px;
     height: 100px;
 }
@@ -79,7 +81,4 @@ body {
     box-shadow: rgba(0, 0, 0, 0.9);
     transition: all 200ms ease-in-out;
     text-decoration: none;
-}
-.card .btn:hover {
-    background: #f68657;
 }
