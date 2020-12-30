@@ -1,11 +1,8 @@
 
 body {
-	margin: 0;
-	height: 100%;
-	background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
-	background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-image: url(images/bookbg.jpg);
+    font-family: 'Sansita Swashed';
+    color: white;
 }
 
 .button_container {
@@ -77,9 +74,9 @@ body {
 }
 
 .btn-session{
-    background-color: black;;
+    background-color: white;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 15px;
     text-align: center;
     text-decoration: none;
