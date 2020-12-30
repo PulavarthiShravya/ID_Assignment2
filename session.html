@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>Session</title>
-        <link href="sessionstyle.css" rel="stylesheet" type="text/css" />
+        <link href="session style.css" rel="stylesheet" type="text/css" />
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -13,37 +13,74 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 
         <style>
+        
+        @media screen and (max-width: 500px) {
+            .column {
+                width: 100%;
+            }
+
+            .button-session{
+                background-color: white;
+                border: none;
+                color: black;
+                padding: 15px 15px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-family: 'Roboto Condensed';
+                font-size: 16px;
+                margin: 4px 12px;
+                cursor: pointer;
+ 
+            }
+        }
 
         </style>
 
     </head>
     <body>
         
-        <h1 class = 'title'>Session Details</h1>
-        <div class="container">
-            <div class="card">
-              <h3 class="title">Activity 1</h3>
-              <div class="text">
-                  <!--Add details about activities in each session-->
-                  <p>Hello World</p>
-              </div>
+        <h1 style = 'text-align: center'>Session Details</h1>
+        <div class = "row">
+            <div class = "column">
+                <h2>Session 1</h2>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="images/session1.jpg" alt="session1" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Day: Every Friday (excluding PH)</h1>
+                        <h1>Time: 7pm - 9pm</h1>
+                        <h1>Venue: Nearest Sports Complex</h1>
+                      </div>
+                    </div>
+                  </div>
             </div>
-            <div class="card">
-              <h3 class="title">Activity 2</h3>
-              <div class="text">
-                  <!--Add details about activities in each session-->
-                  <p>Hello World</p>
-              </div>
-            </div>
-            <div class="card">
-              <h3 class="title">Activity 3</h3>
-              <div class="text">
-                  <!--Add details about activities in each session-->
-                  <p>Hello World</p>
 
-              </div>
+            <div class = "column">
+                <h2>Session 2</h2>
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="images/session2.jpg" alt="session1" style="width:300px;height:300px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Day: Every Saturday (excluding PH)</h1>
+                        <h1>Time: 10am - 12 Noon</h1>
+                        <h1>Venue: Nearest Sports Complex</h1>
+                      </div>
+                    </div>
+                  </div>
             </div>
         </div>
+
+        <br>
+
+        <a  href="index.html" class = 'button-session'>Home</a>
+        <a href = "about.html" class = 'button-session'>About</a>
+        <a href = "activities.html" class = 'button-session'>Activities</a>
+        <a href = "book.html" class = 'button-session'>Book a session</a>
 
     </body>
 
