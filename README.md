@@ -24,20 +24,71 @@ API used:
 
 
 Sources used:
-1. index page background image --> google images: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.latimes.com%2Fsports%2Fstory%2F2020-03-08%2Fsoccer-mom-youth-sports&psig=AOvVaw32dseA7xwKpwzj0wYN5cnN&ust=1608976377715000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKC176Lu6O0CFQAAAAAdAAAAABAD
 
-2. about page background image --> google images: https://www.google.com/search?q=black+background+images&safe=active&rlz=1C1CHBF_enSG893SG894&sxsrf=ALeKk02W_DnhSt01g5FN01i4_ZPW5NoLeg:1609044469619&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjggqjgre3tAhUaU30KHRiyDuMQ_AUoAXoECBMQAw&biw=1280&bih=610#imgrc=oxB-2WjR9w9DFM
-
-3. timeline for about page --> w3schools: https://www.w3schools.com/howto/howto_css_timeline.asp
-
-4. image for 'soccer match' --> google images: https://previews.123rf.com/images/graphicbee/graphicbee1609/graphicbee160900063/63417189-soccer-match-soccer-players-having-soccer-match-in.jpg
-
-5. image for 'exercise routine' --> google images: https://previews.123rf.com/images/terd486/terd4861712/terd486171200002/91120865-man-and-woman-bubble-big-head-cartoon-push-up-for-healthy-and-good-shape-exercise-vector-illustratio.jpg
-
-6. image for 'bonding' --> google images: https://previews.123rf.com/images/topvectors/topvectors1711/topvectors171100934/90133779-mother-and-her-son-playing-together-with-a-ball-in-city-park-outside-family-leisure-vector-illustrat.jpg
-
-7. cards used for activities page --> https://codepen.io/triss90/pen/bpZzzN
+Index Page:
 
 
+- index page background image --> google images: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.latimes.com%2Fsports%2Fstory%2F2020-03-08%2Fsoccer-mom-youth-sports&psig=AOvVaw32dseA7xwKpwzj0wYN5cnN&ust=1608976377715000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKC176Lu6O0CFQAAAAAdAAAAABAD
 
+About Page:
+
+
+- about page background image --> google images: https://www.google.com/search?q=black+background+images&safe=active&rlz=1C1CHBF_enSG893SG894&sxsrf=ALeKk02W_DnhSt01g5FN01i4_ZPW5NoLeg:1609044469619&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjggqjgre3tAhUaU30KHRiyDuMQ_AUoAXoECBMQAw&biw=1280&bih=610#imgrc=oxB-2WjR9w9DFM
+
+- timeline for about page --> w3schools: https://www.w3schools.com/howto/howto_css_timeline.asp
+
+
+Activities to Participate Page:
+
+
+- background image --> google images: 
+
+
+- image for 'soccer match' --> google images: https://previews.123rf.com/images/graphicbee/graphicbee1609/graphicbee160900063/63417189-soccer-match-soccer-players-having-soccer-match-in.jpg
+
+
+- image for 'exercise routine' --> google images: https://previews.123rf.com/images/terd486/terd4861712/terd486171200002/91120865-man-and-woman-bubble-big-head-cartoon-push-up-for-healthy-and-good-shape-exercise-vector-illustratio.jpg
+
+
+- image for 'bonding' --> google images: https://previews.123rf.com/images/topvectors/topvectors1711/topvectors171100934/90133779-mother-and-her-son-playing-together-with-a-ball-in-city-park-outside-family-leisure-vector-illustrat.jpg
+
+
+- cards used for activities page --> https://codepen.io/triss90/pen/bpZzzN
+
+
+Weekly Session Page:
+
+
+- background image --> google images: 
+
+- session 1 image --> google images:
+
+- session 2 image --> google images:
+
+- flipcard reference --> w3schools.com: 
+
+
+Book Session Page:
+
+- button references --> uicookies.com:
+
+- background image --> google images: 
+
+
+Login Page:
+
+- background image --> google images: https://wallpapercave.com/wp/wp4690646.jpg
+
+- input box --> codepen.io: https://codepen.io/visualcookie/pen/kkwxPm
+
+
+Signup Page:
+
+- background image --> google images: 
+- form design --> uicookies.com: https://uicookies.com/css-input-box/#
+
+
+Convertor used:
+
+- CSS: https://jsonformatter.org/scss-to-css
 
