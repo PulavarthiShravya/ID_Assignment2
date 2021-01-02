@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-        
+        <script src = "signup.js"></script>
         <style>
 
         </style>
@@ -25,7 +25,7 @@
                 <div class="card card-4">
                     <div class="card-body">
                         <h2 class="title">Sign Up Form (Enter Details of child)</h2>
-                        <form method="POST">
+                        <form id = "signup-details" onsubmit="return false">
                             <div class="row row-space">
                                 <div class="col-2">
                                     <div class="input-group">
@@ -36,7 +36,7 @@
                                 <div class="col-2">
                                     <div class="input-group">
                                         <label class="label">last name</label>
-                                        <input class="input--style-4" type="text" placeholder = "last name" name="last_name">
+                                        <input class="input--style-4" type="text" id = "last name" placeholder = "last name" name="last_name">
                                     </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@
                                     <div class="input-group">
                                         <label class="label">Date of Birth</label>
                                         <div class="input-group-icon">
-                                            <input class="input--style-4 js-datepicker" type="date" name="birthday" placeholder = 'DOB'>
+                                            <input class="input--style-4 js-datepicker" type="date" id = "dob" name="birthday" placeholder = 'DOB'>
                                         </div>
                                     </div>
                                 </div>
@@ -78,16 +78,17 @@
                                         <input class="input--style-4" type="text" name="phone" placeholder = "user id" id = "userid" required>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="p-t-15">
-                                <button class = "btn-signup" onclick = "createacc()">Sign Up!</button>
+                                <input class = "btn-signup" type="submit" value="Register" onclick="display()" /> &ensp;
+                                <p id = "details" class = "display"></p>
+                                <p id = "name" class = "display"></p>
+                                <p id = "ID" class = "display"></p>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
-        <script src = "signup details.js"></script>
+        <a href = endpage.html class = "btn-done">Done</a>
     </body>
 
 </html>
