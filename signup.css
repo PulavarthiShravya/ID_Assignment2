@@ -591,3 +591,10 @@ input {
   margin: 4px 0px;
   cursor: pointer;
 }
+
+
+.display{
+  font-family: 'Roboto Condensed';
+  color: black;
+  text-align:center;
+}
