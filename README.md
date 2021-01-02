@@ -41,9 +41,6 @@ About Page:
 Activities to Participate Page:
 
 
-- background image --> google images: 
-
-
 - image for 'soccer match' --> google images: https://previews.123rf.com/images/graphicbee/graphicbee1609/graphicbee160900063/63417189-soccer-match-soccer-players-having-soccer-match-in.jpg
 
 
@@ -59,20 +56,20 @@ Activities to Participate Page:
 Weekly Session Page:
 
 
-- background image --> google images: 
+- background image --> google images: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwallpapercave.com%2Fblack-background-wallpapers&psig=AOvVaw2Jnah5AJC0w1xkdGot4-mv&ust=1609667815154000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICJs4j-_O0CFQAAAAAdAAAAABAO
 
-- session 1 image --> google images:
+- session 1 image --> google images: https://images.squarespace-cdn.com/content/v1/570bc781b6aa60017e66cca4/1528428516849-UVQE3UBVOTKXHFC0V4MX/ke17ZwdGBToddI8pDm48kO6t_FIigFZlD-2ukJs68NZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ua_Bo-6wCJQLWZitxYCQrUvnjn6LFew3nzFr3QCHcE-zm7cT0R_dexc_UL_zbpz6JQ/IMG_1257.PNG
 
-- session 2 image --> google images:
+- session 2 image --> google images: https://static1.squarespace.com/static/570bc781b6aa60017e66cca4/57ceeee5579fb3dc201927f8/5b19f9ec562fa72ab72eee93/1583280807581/IMG_1258.PNG?format=1500w
 
-- flipcard reference --> w3schools.com: 
+- flipcard reference --> w3schools.com: https://www.w3schools.com/howto/howto_css_flip_card.asp
 
 
 Book Session Page:
 
-- button references --> uicookies.com:
+- button references --> uicookies.com: https://codepen.io/sfoxy/pen/XpOoJe
 
-- background image --> google images: 
+- background image --> google images: https://img.freepik.com/free-vector/black-dark-3d-low-poly-geometric-background_79145-393.jpg?size=626&ext=jpg
 
 
 Login Page:
@@ -84,8 +81,18 @@ Login Page:
 
 Signup Page:
 
-- background image --> google images: 
+- background image --> google images: https://wpamelia.com/wp-content/uploads/2019/02/astronomy-constellation-dark-998641.jpg 
 - form design --> uicookies.com: https://uicookies.com/css-input-box/#
+
+
+Member Page:
+- background image --> google images: https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/555920/c5a47c658bacfb42c206a75c554a7c807334d01d.jpg 
+
+-button input design --> uicookies.com: https://codepen.io/visualcookie/pen/kkwxPm
+
+endpage:
+
+-background image --> google images: https://i.pinimg.com/originals/1f/a7/1a/1fa71aa7eba329493eeac24113750dc9.jpg 
 
 
 Convertor used:
