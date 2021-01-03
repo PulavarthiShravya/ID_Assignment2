@@ -3,7 +3,7 @@
 $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=Singapore&units=metric&APPID=230b9a9b3e25404d3697151f242e0ded", function(data){
     console.log(data);
 
-
+    
     //display icon
     var icon = "https://openweathermap.org/img/w/" + data.weather[0].icon + ".png";
 
