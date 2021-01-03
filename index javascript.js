@@ -14,7 +14,7 @@ $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=Singapore&units=metr
     var weather = data.weather[0].main;
 
     //adding icon in html page
-    $('.icon').attr('src', icon);
+    $(".icon").attr('src', icon);
 
     //adding temp in html page
     $('.temp').append(temp + ' \u00B0 Celsius');
