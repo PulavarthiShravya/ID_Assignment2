@@ -43,6 +43,14 @@ body, html {
       text-align: center;
   }
 
+  .weather{
+    font-family: 'Roboto Condensed';
+  }
+
+  .temp{
+    font-family: 'Roboto Condensed';
+  }
+
 /* buttons at homepage */
 .button-home {
     background-color: white;
