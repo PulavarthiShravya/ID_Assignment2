@@ -21,7 +21,9 @@ Features of the web application
 
 API used:
 
+- display climate: api from openweather.org --> https://api.openweathermap.org/data/2.5/weather?q=Singapore&units=metric&APPID=230b9a9b3e25404d3697151f242e0ded
 
+- display nearest sports complex: api from google maps --> 
 
 Sources used:
 
