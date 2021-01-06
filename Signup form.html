@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Book a Session</title>
+        <link href="signup.css" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+        <script src = "signup.js"></script>
+        <style>
+
+        </style>
+
+    </head>
+
+    <body>
+        <h1 class = 'title1'>Become a member of Soccer Mom Club Now!</h1>
+        <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+            <div class="wrapper wrapper--w680">
+                <div class="card card-4">
+                    <div class="card-body">
+                        <h2 class="title">Sign Up Form (Enter Details of child)</h2>
+                        <form id = "signup-details" onsubmit="return false">
+                            <div class="row row-space">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">first name</label>
+                                        <input class="input--style-4" type="text" id = "child name" name="first_name" placeholder = "first name" required>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">last name</label>
+                                        <input class="input--style-4" type="text" id = "last name" placeholder = "last name" name="last_name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-space">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Date of Birth</label>
+                                        <div class="input-group-icon">
+                                            <input class="input--style-4 js-datepicker" type="date" id = "dob" name="birthday" placeholder = 'DOB'>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Gender</label>
+                                        <div class="p-t-10">
+                                            <label class="radio-container m-r-45">Male
+                                                <input type="radio" checked="checked" name="gender">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                            <label class="radio-container">Female
+                                                <input type="radio" name="gender">
+                                                <span class="checkmark"></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row row-space">
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">Email</label>
+                                        <input class="input--style-4" type="email" name="email" id = "email" placeholder = "parent email" required>
+                                    </div>
+                                </div>
+                                <div class="col-2">
+                                    <div class="input-group">
+                                        <label class="label">User Id</label>
+                                        <input class="input--style-4" type="text" name="phone" placeholder = "user id" id = "userid" required>
+                                    </div>
+                                </div>
+                                <input class = "btn-signup" type="submit" value="Register" onclick="display()" /> &ensp;
+                                <p id = "details" class = "display"></p>
+                                <p id = "name" class = "display"></p>
+                                <p id = "ID" class = "display"></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href = endpage.html class = "btn-done">Done</a>
+    </body>
+
+</html>
