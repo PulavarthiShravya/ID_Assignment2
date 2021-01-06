@@ -19,47 +19,87 @@
     <h2>Search for Available Location</h2>
 
     <!--Search menu-->
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Nearest MRT.." title="Type in a name">
 
     <!--Table contents-->
     <table id="myTable">
         <tr class="header">
-          <th style="width:60%;">Sports Complex</th>
-          <th style="width:25%;">Area</th>
+          <th style="width:40%;">Sports Complex</th>
+          <th style="width:25%;">Nearest MRT</th>
           <th style = "width: 25%">Availability</th>
           <th style = "width: 25%;">Book</th>
         </tr>
         <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Germany</td>
+          <td>Bukit Gombak Stadium</td>
+          <td style = "color: red">Bukit Gombak</td>
+          <td>Fully Booked</td>
+          <td class = "book-btn" onclick="unavailable()">Booked</td> <!--display unavailable when clicking-->
         </tr>
         <tr>
-          <td>Berglunds snabbkop</td>
-          <td>Sweden</td>
+          <td>Choa Chu Kang Stadium</td>
+          <td style = "color: red">Choa Chu Kang</td>
+          <td>Available</td>
+          <td class = "book-btn" onclick="available()"><a href = "confirmbk.html">Book</a></td>
         </tr>
         <tr>
-          <td>Island Trading</td>
-          <td>UK</td>
+          <td>Farrer Park Field</td>
+          <td style = "color: purple">Little India</td>
+          <td>Available</td>
+          <td class = "book-btn" onclick="available()"><a href = "confirmbk.html">Book</a></td>
         </tr>
         <tr>
-          <td>Koniglich Essen</td>
-          <td>Germany</td>
+          <td>Hougang Stadium</td>
+          <td style = "color: purple">Hougang</td>
+          <td>Available (Saturdays Only)</td>
+          <td class = "book-btn" onclick="available()"><a href = "confirmbk.html">Book</a></td>
         </tr>
         <tr>
-          <td>Laughing Bacchus Winecellars</td>
-          <td>Canada</td>
+          <td>Jurong East Stadium</td>
+          <td style = "color: green">Chinese Garden</td>
+          <td>Fully Booked</td>
+          <td class = "book-btn" onclick="unavailable()">Booked</td>
         </tr>
         <tr>
-          <td>Magazzini Alimentari Riuniti</td>
-          <td>Italy</td>
+          <td>Kallang Field</td>
+          <td style = "color: orange">Mountbatten</td>
+          <td>Available</td>
+          <td class = "book-btn" onclick="available()"><a href = "confirmbk.html">Book</a></td>
         </tr>
         <tr>
-          <td>North/South</td>
-          <td>UK</td>
+          <td>Queenstown Stadium</td>
+          <td style = "color: green">Queenstown</td>
+          <td>Fully Booked</td>
+          <td class = "book-btn" onclick="unavailable()">Booked</td>
         </tr>
         <tr>
-          <td>Paris specialites</td>
-          <td>France</td>
+          <td>Serangoon Stadium</td>
+          <td style = "color: purple">Serangoon</td>
+          <td>Fully Booked</td>
+          <td class = "book-btn" onclick="unavailable()">Booked</td>
+        </tr>
+        <tr>
+          <td>Woodlands Stadium</td>
+          <td style = "color: red">Woodlands</td>
+          <td>Available</td>
+          <td class = "book-btn" onclick="available()"><a href = "confirmbk.html">Book</a></td>
+        </tr>
+        <tr>
+          <td>Yio Chu Kang Stadium</td>
+          <td style = "color: red">Yio Chu Kang</td>
+          <td>Fully Booked</td>
+          <td class = "book-btn" onclick="unavailable()">Booked</td>
+        </tr>
+        <tr>
+          <td>Yishun Stadium</td>
+          <td style = "color: red">Khatib</td>
+          <td>Fully Booked</td>
+          <td class = "book-btn" onclick="available()"><a href = "confirm.html">Book</a></td>
+        </tr>
+        <tr>
+          <td>Serangoon Stadium</td>
+          <td style = "color: purple">Serangoon</td>
+          <td>Fully Booked</td>
+          <td class = "book-btn" onclick="unavailable()">Booked</td>
         </tr>
       </table>
 
