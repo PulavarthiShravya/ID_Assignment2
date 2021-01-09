@@ -11,3 +11,17 @@ function display(){
     document.getElementById("ID").innerHTML = "User Id: " + userID;
 }
 
+var x = 0;
+var array = Array(); //empty array
+
+function add_element_to_array()
+{
+ array[x] = document.getElementById("userid").value;
+ alert("User Id: " + array[x] + " has been successfully added! ");
+ x++;
+ document.getElementById("userid").value = "";
+}
+
+console
+
+
