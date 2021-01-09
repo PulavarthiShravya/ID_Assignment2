@@ -39,3 +39,37 @@ body{
   #myTable tr.header, #myTable tr:hover {
     background-color: #f1f1f1;
   }
+
+  a:link, a:visited {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    margin: 4px 16px;
+    cursor: pointer;
+  }
+  
+  
+  a:hover, a:active {
+    background-color: rgb(121, 190, 121);
+    color: white;
+  }
+
+  .book-btn{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Roboto Condensed';
+    font-size: 16px;
+    margin: 4px 16px;
+    cursor: pointer;
+  }
