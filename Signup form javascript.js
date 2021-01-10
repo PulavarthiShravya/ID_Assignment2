@@ -25,9 +25,13 @@ const addMember = (ev)=>{
         userID: document.getElementById("userid").value
     }
 
+    let userid = {
+        userid: document.getElementById("userid").value
+    }
+
 
     members.push(member); //adding object into members array
-    userid.push(member.userID); //adding userID into userid array
+    userid.push(userid); //adding userID into userid array
 
     document.querySelector('form').reset(); //clear form for next entries
 
@@ -41,9 +45,9 @@ const addMember = (ev)=>{
     localStorage.setItem("UserId", JSON.stringify(userid) );
 }
 
-/*document.addEventListener('DOMContentLoaded', ()=>{
+document.addEventListener('DOMContentLoaded', ()=>{
     document.getElementById('btn').addEventListener('click', addMember);
-});*/
+});
 
 function verify() {
     var IDinput = userid.includes("input").value;
