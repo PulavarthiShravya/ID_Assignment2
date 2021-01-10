@@ -15,50 +15,32 @@ function display(){
 
 let members = []; //array of members
 
-let userid = [];
-
-const addMember = (ev)=>{
+const member = (ev)=>{
     ev.preventDefault();
     let member = { //member object
-        id: Date.now(),
-        childName: document.getElementById("child name").value,
+        //id: Date.now(),
+        //childName: document.getElementById("child name").value,
         userID: document.getElementById("userid").value
     }
 
-    let userid = {
-        userid: document.getElementById("userid").value
-    }
-
-
     members.push(member); //adding object into members array
-    userid.push(userid); //adding userID into userid array
 
     document.querySelector('form').reset(); //clear form for next entries
 
-    //display purposes
-    console.warn('added' , {userid} );
-    let pre = document.querySelector('#msg pre');
-    pre.textContent = '\n' + JSON.stringify(userid, '\t', 2); 
-
     //saving to local storage
-    localStorage.setItem("MemberDetails", JSON.stringify(members) );
-    localStorage.setItem("UserId", JSON.stringify(userid) );
+    localStorage.setItem("UserId", JSON.stringify(members) );
 }
 
-document.addEventListener('DOMContentLoaded', ()=>{
-    document.getElementById('btn').addEventListener('click', addMember);
-});
+/*document.addEventListener('DOMContentLoaded', ()=>{
+    document.getElementById('btn').addEventListener('click', addmember);
+});*/
 
 function verify() {
-    var IDinput = userid.includes("input").value;
-
-    if (IDinput == true) { //if true
-        location.href = "Location page.html";
-    }
-
-    else { //false
-        document.getElementById("msg").innerHTML = "Invalid user ID";
-        document.getElementById("msg1").innerHTML = "Please sign up";
+    // Check if a value exists in the userid array
+    if(members.indexOf("input").value == true){
+        location.href = "Location page.html"
+    } else{
+        alert("Invalid User ID")
     }
 }
 
