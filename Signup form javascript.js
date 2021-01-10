@@ -40,7 +40,7 @@ function verify() {
     if(members.includes("input").value == false){
         location.href = "Location page.html"
     } else{
-        alert("Invalid User ID")
+        alert("Welcome back")
     }
 }
 
