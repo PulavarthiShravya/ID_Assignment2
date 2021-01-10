@@ -20,7 +20,7 @@
     <h2>Search for Available Location</h2>
 
     <!--Search menu-->
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Nearest MRT.." title="Type in a name">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for area.." title="Type in a name">
 
     <!--Table contents-->
     <table id="myTable">
@@ -103,6 +103,27 @@
           <td class = "book-btn" onclick="unavailable()">Booked</td>
         </tr>
       </table>
+
+      <script>
+        function myFunction() {
+          var input, filter, table, tr, td, i, txtValue;
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("myTable");
+          tr = table.getElementsByTagName("tr");
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[1];
+            if (td) {
+              txtValue = td.textContent || td.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+              tr[i].style.display = "";
+            } else {
+              tr[i].style.display = "none";
+              }
+            }       
+          }
+        }
+      </script>
 
 </body>
 </html>
