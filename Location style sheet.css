@@ -9,7 +9,7 @@ body{
   }
   
   #myInput { /*for the search box*/
-    background-color: pink;
+    background-color: beige;
     background-position: 10px 10px;
     background-repeat: no-repeat;
     width: 100%;
