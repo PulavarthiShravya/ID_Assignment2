@@ -37,7 +37,7 @@ const member = (ev)=>{
 
 function verify() {
     // Check if a value exists in the userid array
-    if(members.indexOf("input").value == true){
+    if(members.indexOf("input").value != true){
         location.href = "Location page.html"
     } else{
         alert("Invalid User ID")
