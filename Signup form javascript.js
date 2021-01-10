@@ -11,17 +11,52 @@ function display(){
     document.getElementById("ID").innerHTML = "User Id: " + userID;
 }
 
-var x = 0;
-var array = Array(); //empty array
+//adding form data into local storage and creating them as objects
 
-function add_element_to_array()
-{
- array[x] = document.getElementById("userid").value;
- alert("User Id: " + array[x] + " has been successfully added! ");
- x++;
- document.getElementById("userid").value = "";
+let members = []; //array of members
+
+let userid = [];
+
+const addMember = (ev)=>{
+    ev.preventDefault();
+    let member = { //member object
+        id: Date.now(),
+        childName: document.getElementById("child name").value,
+        userID: document.getElementById("userid").value
+    }
+
+
+    members.push(member); //adding object into members array
+    userid.push(member.userID); //adding userID into userid array
+
+    document.querySelector('form').reset(); //clear form for next entries
+
+    //display purposes
+    console.warn('added' , {userid} );
+    let pre = document.querySelector('#msg pre');
+    pre.textContent = '\n' + JSON.stringify(userid, '\t', 2); 
+
+    //saving to local storage
+    localStorage.setItem("MemberDetails", JSON.stringify(members) );
+    localStorage.setItem("UserId", JSON.stringify(userid) );
 }
 
-console
+/*document.addEventListener('DOMContentLoaded', ()=>{
+    document.getElementById('btn').addEventListener('click', addMember);
+});*/
+
+function verify() {
+    var IDinput = userid.includes("input").value;
+
+    if (IDinput == true) { //if true
+        location.href = "Location page.html";
+    }
+
+    else { //false
+        document.getElementById("msg").innerHTML = "Invalid user ID";
+        document.getElementById("msg1").innerHTML = "Please sign up";
+    }
+}
+
 
 
